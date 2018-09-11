@@ -1,6 +1,6 @@
-# iBib [<sup>%(#newname)</sup>]
+# iBib <sup>[%](#newname)</sup>
 
-Eventually[<sup>†(#priority)</sup>], this could a web-based, book (pdf) browser à la OSX-coverflow or Calibre.
+Eventually<sup>[†](#priority)</sup>, this could a web-based, book (pdf) browser à la OSX-coverflow or Calibre.
 
 It comes from the limitations I faced with Calibre: the latter requires the user running Calibre
 to own the files (books) it shows. I was looking for a "Library" app, where users would be able
@@ -11,13 +11,15 @@ to read it; but I don't want him to get a copy of it from me.
 # TODO
 
 The main thing would be to see if there would be an easy-enough way for letting the browser to display say a PDF and
-yet deter the average/not-enough-motivated user from downloading it[<sup>††(#drm)</sup>]. The default PDF
+yet deter the average/not-enough-motivated user from downloading it<sup>[††](#drm)</sup>. The default PDF
 viewer of course allows straightfoward saving of said pdf file.
 
 After this, basically just eyecandy.
 
 <a name="newname"><sup>%</sup></a>: Initially this project had the appropiately boring name of myLibrary... :-p. Some files may still show it.
+
 <a name="priority"><sup>†</sup></a>: This has a low, low,...low priority right now... :-)
+
 <a name="priority"><sup>††</sup></a>: Of course, if the browser "shows" something, the user already downloaded it!
 
 
