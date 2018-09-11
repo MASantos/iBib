@@ -8,11 +8,18 @@ to read, but not copy the files -so as to make sure no one can accuse me of dist
 which I may not be allowed to distribute -say I own an eBook and let another user of my machine
 to read it; but I don't want him to get a copy of it from me.
 
-# TODO
+## Books
+
+Enough to populate public/assets/pdf with links to the (remote) actual pdf files. Add also a cover image for each
+under public/assets/images.
+
+## TODO
 
 The main thing would be to see if there would be an easy-enough way for letting the browser to display say a PDF and
 yet deter the average/not-enough-motivated user from downloading it<sup>[††](#drm)</sup>. The default PDF
 viewer of course allows straightfoward saving of said pdf file.
+
+Then automate the update of a database of the literature available and feed it to the client.
 
 After this, basically just eyecandy.
 
