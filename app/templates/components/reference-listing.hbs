@@ -1,0 +1,35 @@
+  <a target='_blank' href="{{book.link}}" title="open book">
+   <div class="image {{if isWide "wide"}}" >
+    <img src="{{book.image}}" alt="Book-image">
+   </div>
+   </a>
+<article class="listing">
+  <h2>{{book.title}}</h2>
+  <div class="detail subject">
+   <span>Subject: {{book.subject}}</span>
+  </div>
+  <div class="detail author">
+   <span>Author: {{book.author}}</span>
+  </div>
+  <div class="detail category">
+   <span>Category: {{book.category}}</span>
+  </div>
+  <div class="detail filename">
+   <span>File name: {{book.filename}}</span>
+  </div>
+  <div class="detail filesize">
+   <span>File size: {{book.filesize}} MB</span>
+  </div>
+  <div class="detail subcategory1">
+   <span>Subcategory 1: {{book.subcategory1}}</span>
+  </div>
+  <div class="detail subcategory2">
+   <span>Subcategory 2: {{book.subcategory2}}</span>
+  </div>
+  <div class="detail subcategory3">
+   <span>Subcategory 3: {{book.subcategory3}}</span>
+  </div>
+  <div class="detail year">
+   <span>Publication year: {{book.year}}</span>
+  </div>
+</article>

@@ -1,0 +1,42 @@
+import Route from '@ember/routing/route';
+
+export default Route.extend({
+	model(){
+		return [{
+			filename: '__RaspberryPiCookbook-OReillyMedia-2016-SimonMonk.pdf',
+			fileSize: 10,//MB
+			title: "Raspberry Pi Cookbook",
+			author: "Simon Monk",
+			subject: "Raspberry Pi",
+			category: "Computer Science",
+			subcategory1: "",
+			subcategory2: "",
+			subcategory3: "",
+			year: 2015,
+		}, 
+		{
+			filename: "I. J. R. Aitchison, A. J. G. Hey Gauge Theories in Particle Physics, Second Edition (Graduate Student Series in Physics)  1989.pdf",
+			fileSize: 117,//MB
+			title: "Gauge Theories in Particle Physics",
+			author: "I.J.R. Aitchison",
+			subject: "QFT",
+			category: "Physics",
+			subcategory1: "Theoretical Physics",
+			subcategory2: "",
+			subcategory3: "",
+			year: 1989,
+		}, 
+		{
+			filename: "StructuralBioinformaticsAnAlgorithmicApproach-2008-ChapmanHall-BurkowskiForbesJ.pdf",
+			fileSize: 8,//MB
+			title: "noname",
+			author: "",
+			subject: "",
+			category: "Bioinformatics",
+			subcategory1: "",
+			subcategory2: "",
+			subcategory3: "",
+			year: 2008,
+		}]
+	}
+});

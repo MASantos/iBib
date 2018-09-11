@@ -1,7 +1,25 @@
-# mylibrary
+# iBib 
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Eventually[^$\dagger$], this could a web-based, book (pdf) browser à la OSX-coverflow or Calibre.
+
+It comes from the limitations I faced with Calibre: the latter requires the user running Calibre
+to own the files (books) it shows. I was looking for a "Library" app, where users would be able
+to read, but not copy the files -so as to make sure no one can accuse me of distributing material
+which I may not be allowed to distribute -say I own an eBook and let another user of my machine
+to read it; but I don't want him to get a copy of it from me.
+
+# TODO
+
+The main thing would be to see if there would be an easy-enough way for letting the browser to display say a PDF and
+yet deter the average/not-enough-motivated user from downloading it[^$\dagger\dagger$]. The default PDF
+viewer of course allows straightfoward saving of said pdf file.
+
+After this, basically just eyecandy.
+
+[^$\dagger$]: This has a low, low,...low priority right now... :-)
+[^$\dagger\dagger$]: Of course, if the browser "shows" something, the user already downloaded it!
+
+Initially this project had the appropiately boring name of myLibrary... :-p. Some files may still show it.
 
 ## Prerequisites
 

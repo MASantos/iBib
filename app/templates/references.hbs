@@ -1,0 +1,17 @@
+{{#list-filter filtro=(action 'filterByCategory') as |filteredResults|}}
+{{#each filteredResults as |book|}}
+	{{reference-listing book=book}}
+{{/each}}
+{{/list-filter}}
+<!--
+<div class="model references">
+<ul class="resulta">
+</ul>
+</div>
+<div class="model catalog">
+{{#each model as |book|}}
+	{{reference-listing book=book}}
+{{/each}}
+</div>
+-->
+{{!--outlet--}}
