@@ -1,7 +1,10 @@
 {{#list-filter filtro=(action 'filterByCategory') as |filteredResults|}}
+<!--
 {{#each filteredResults as |book|}}
 	{{reference-listing book=book}}
 {{/each}}
+-->
+{{reference-coverflow list=filteredResults}}
 {{/list-filter}}
 <!--
 <div class="model references">

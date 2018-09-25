@@ -1,0 +1,13 @@
+{{#swiper-container effect='coverflow' keyboard=true mousewheel=true slidesPerView=3 centeredSlides=true initialSlide=1 resistance='false'}}
+    {{#each list as |reference|}}
+    	{{#swiper-slide}}
+		<a target='_blank' href="{{reference.link}}" title="open book">
+		<div class="image {{if isWide "wide"}}" >
+		<img src="{{reference.image}}" alt="Book-image">
+		</div>
+		</a>
+		-------
+    	{{/swiper-slide}}
+    {{/each}}
+{{/swiper-container}}
+{{yield}}

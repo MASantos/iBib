@@ -54,6 +54,26 @@ export default function() {
 			image: 'assets/images/StrucBioinformaticsBukorswki.png',
 			link: 'assets/pdf/StrucBioinformaticsBukorswki.pdf'
 		} 
+	}, 
+	{
+		type: 'reference',
+		id: '4',
+		attributes: {
+			year: '2001',
+			filename: "AT.pdf",
+			filesize: '12.8',//MB
+			title: "Algebraic Topology",
+			author: "Allen Hatcher",
+			subject: "Introduction to Algebraic Topology",
+			category: "Mathematics",
+			subcategory1: "Topology",
+			subcategory2: "Algebraic Topology",
+			subcategory3: "Intro",
+			image: 'assets/images/StrucBioinformaticsBukorswki.png',
+			link: 'assets/pdf/StrucBioinformaticsBukorswki.pdf'
+			//image: 'assets/images/AlgebraicTopologyHatcher.png',
+			//link: 'assets/pdf/AlgebraicTopologyHatcher.pdf'
+		} 
 	} 
 	] 
 	this.get('/references', function(bb,request){
@@ -65,6 +85,6 @@ export default function() {
 			return { data: filteredReferences};
 		} else { 
 			return { data: references};
-		} ;
+		} 
 	});
 }
