@@ -8,7 +8,7 @@ to read, but not copy the files -so as to make sure no one can accuse me of dist
 which I may not be allowed to distribute -say I own an eBook and let another user of my machine
 to read it; but I don't want him to get a copy of it from me.
 
-[Demo at surge.sh](iBib.surge.sh)
+[Demo at surge.sh](http://iBib.surge.sh)
 
 **Note:** Swiper for Emberjs seems to have a bug/require additional setup. Zoom in/out to see the coverflow effect meanwhile.
 
